@@ -1,0 +1,25 @@
+{
+  "name": "napi-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "dependencies": {
+    "bindings": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czoido/napi-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/czoido/napi-hello-world/issues"
+  },
+  "homepage": "https://github.com/czoido/napi-hello-world#readme"
+}
